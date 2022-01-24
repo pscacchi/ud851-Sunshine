@@ -31,7 +31,7 @@ public class SettingsFragment extends PreferenceFragmentCompat
     // TODO (5) Override onCreatePreferences and add the preference xml file using addPreferencesFromResource
     @Override
     public void onCreatePreferences(Bundle bundle, String s) {
-        addPreferencesFromResource(R.xml.preg_general);
+        addPreferencesFromResource(R.xml.pref_general);
 
         // Do step 9 within onCreatePreference
         // TODO (9) Set the preference summary on each preference that isn't a CheckBoxPreference
